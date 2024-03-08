@@ -1,0 +1,64 @@
+
+        body{
+            background-color:black;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+            transform: translate(0px,20px);
+        }
+        #todo-container{
+            background-color: rgb(242, 242, 69);
+            height: 400px;
+            width: 500px;
+            margin: 100px 450px;
+            box-shadow: 2px 2px 2px black;
+        }
+    #new-task{
+        margin: 20px 10px 10px 100px;
+        border: none;
+        padding: 12px;
+
+        
+    }
+
+    #new-task:hover{
+       outline: 2px solid black;
+
+    }
+    button{
+        padding: 12px;
+        border: none;
+    box-shadow: 2px 2px 2px black;
+        background-color: rgb(97, 232, 97);
+    }
+    #btn:hover{
+        padding: 13px;
+    }
+
+    .delete-btn {
+            background-color:rgb(240, 33, 33);
+            color:white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+    }
+    
+    span{
+        padding: 12px;
+    
+    }
+    ul {
+  list-style-type: none;
+}
+li{
+    width: 400px;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+    
+    
+    
